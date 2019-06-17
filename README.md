@@ -11,5 +11,6 @@
 - Create a contract between View and Presenter.
 - Include tests.
 
-## About the archiotecture
+## About the architecture
 The idea is to follow an MVP architecture.
+Retrofit is used for networking connections.
