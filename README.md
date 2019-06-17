@@ -9,6 +9,7 @@
 - Load images with a tool like Picasso.
 - Implement a search tool to find art objects by maker's name.
 - Create a contract between View and Presenter.
+- Include tests.
 
 ## About the archiotecture
 The idea is to follow an MVP architecture.
