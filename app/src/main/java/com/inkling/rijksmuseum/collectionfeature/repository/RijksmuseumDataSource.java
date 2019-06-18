@@ -7,5 +7,8 @@ import retrofit2.http.Query;
 public interface RijksmuseumDataSource {
 
     @GET("/api/en/collection")
-    Call<ArtObjectsResponse> getArtObjectsByMaker(@Query("key") String key, @Query("maker") String maker, @Query("p") String page, @Query("ps") String resultsPerPage);
+    Call<ArtObjectsResponse> getArtObjectsByMaker(@Query("key") String key, @Query("maker") String maker,
+                                                  @Query("p") int page, @Query("ps") int resultsPerPage);
+
+
 }

@@ -15,12 +15,14 @@ import java.util.ArrayList;
 
 class ArtCollectionAdapter extends RecyclerView.Adapter<ArtObjectViewHolder> {
 
-    private Context context;
     private ArrayList<ArtObject> artObjectList;
 
-    public ArtCollectionAdapter(Context context, ArrayList<ArtObject> artObjectList) {
-        this.context = context;
+    public ArtCollectionAdapter( ArrayList<ArtObject> artObjectList) {
         this.artObjectList = artObjectList;
+    }
+
+    public void setData(ArrayList<ArtObject> artObject) {
+        this.artObjectList = artObject;
     }
 
     @NonNull
